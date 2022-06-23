@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,54 +7,60 @@
   <link rel="stylesheet" href="./styles/index.css">
   <title>Document</title>
 </head>
-
 <body>
-  <div class="platform">
+
+  <section class="cart_product">
+ 
+    <article class="cart_product__img">
+      <img  src="./img/Rectangle 4.png" alt="">
+    </article>
+    
+    
+
+    <article class="cart_product__text">
+      <div class="cart_product__text__cod">
+        Код товара: 
+      </div>
+    </article>
 
 
-    <img class="platform__pfoto" src="./img/Rectangle 4.png" alt="">
+    <article class="cart_product__comment">
+      <div class="cart_product__comment__stars">
+        <input type="radio" id="1" name="rating">
+        <label for="1">★</label>
 
-    <p class="platform__text">
-      Моноблок APPLE A1419 iMac  27" Retina 5K (MNED2UA/A)
-    </p>
+        <input checked type="radio" id="2" name="rating">
+        <label for="2">★</label>
 
-    <p class="platform__code">
-      Код товара: 195434
-    </p>
+        <input  type="radio" id="3" name="rating">
+        <label for="3">★</label>
 
-    <div class="platform__stars">
-      <div class=" stars4">
-        <img class="stars_linc" src="img/star-active.svg" alt="">
-        <img class="stars_linc" src="img/star-active.svg" alt="">
-        <img class="stars_linc" src="img/star-active.svg" alt="">
-        <img class="stars_linc" src="img/star-active.svg" alt="">
-        <img class="stars_linc" src="img/star.svg" alt="">
+        <input  type="radio" id="4" name="rating" value="">
+        <label for="4">★</label>
+        
+        <input type="radio" id="5" name="rating">
+        <label for="5">★</label>
       </div>
 
-      <div class="stars__text">
-        <p>
-          Отзывов: 5
-        </p>
+      <div class="cart_product__comment__amount">
+        Отзывов: 
       </div>
+    </article>
 
-    </div>
+    <article class="cart_product__price">
+      <div class="cart_product__price__text">Цена:</div>
+       <div class="cart_product__price__money"> грн</div>
+    </article>
+   
+    
+    <article>
+      <a class="cart_product__button"  href="">
+        <div class="cart_product__button__text">
+          КУПИТЬ
+        </div>
+      </a>
+    </article>
+  </section>
 
-    <div class="platform__cesh">
-      <div class="cesh__text">
-        <p>
-          Цена:
-        </p>
-      </div>
-
-      <div class="cesh__mani">
-        <p>
-          69 999 грн
-        </p>
-      </div>
-    </div>
-
-    <a href="" class="platform__button"><strong class="dutton__text">КУПИТЬ</strong></a>
-      
-  </div>
 </body>
 </html>
